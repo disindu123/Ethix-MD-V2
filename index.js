@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("🫡 HEY DISINDU ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `🫡 HEY DISINDU ✅` });
+                    console.log(chalk.green("> 🫡 Hey Disindu ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `> 🫡 Hey Disindu ✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));

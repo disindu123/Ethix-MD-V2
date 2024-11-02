@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 Integration Successful️ ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃 Integration Successful️ ✅` });
+                    console.log(chalk.green("🫡 HEY DISINDU ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `🫡 HEY DISINDU ✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
@@ -178,7 +178,7 @@ async function init() {
 init();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('🔰HEY ITz DISINDU DAMSANDU❤️‍🔥');
 });
 
 app.listen(PORT, () => {

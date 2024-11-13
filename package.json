@@ -33,7 +33,6 @@
     "fluent-ffmpeg": "^2.1.3",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.2.0",
-    "gifted-dls": "^1.3.0",
     "google-it": "^1.6.4",
     "human-readable": "^0.2.1",
     "jimp": "^0.16.13",
@@ -61,7 +60,6 @@
     "translate-google-api": "^1.0.4",
     "url": "^0.11.4",
     "uuid": "^9.0.1",
-    "wasitech": "npm:@distube/ytdl-core",
     "yt-search": "^2.11.0"
   }
 }
